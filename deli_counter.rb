@@ -9,5 +9,6 @@ def line(katz_deli)
       newStr << " #{index + 1}."
       newStr << " #{item[index]}"
     }
+    newStr
   end
 end
