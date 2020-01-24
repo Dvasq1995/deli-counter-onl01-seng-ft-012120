@@ -7,7 +7,7 @@ def line(katz_deli)
     newStr =  "The line is currently:"
     katz_deli.each_with_index { |item, index|
       newStr << " #{index + 1}."
-      newStr << " #{item[index]}"
+      newStr << " #{katz_deli[index]}"
     }
     puts newStr
   end
